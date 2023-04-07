@@ -58,9 +58,10 @@ nav img{
     font-size: 80px;
 }
 .text-box p{
-    margin: 50px 0 20px;
+    margin: auto;
     font-size: 25px;
     color: rgb(255, 255, 255);
+    width: 75%;
 }
 .home{
     width: 80%;
@@ -157,8 +158,6 @@ nav img{
 .about-column p{
     width: 40%;
     margin-left: 10%;
-    margin-right: 50%;
-    margin-top: 6%;
     text-align: justify;
     font-size: 20px;
 }
@@ -184,3 +183,81 @@ nav img{
     padding: 30px;
     margin: auto;
 }
+
+@media(max-width: 700px){
+    nav img{
+        width: 50px;
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 5px;
+        position: relative;
+    }
+    .nav-links ul li a{
+        color:#d3d3d3;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .text-box h1{
+        font-size: 40px;
+    }
+    .text-box p{
+        margin: auto;
+        font-size: 13px;
+        color: rgb(255, 255, 255);
+        width: 75%;
+    }
+    .home h1{
+        font-size: 20px;
+    }
+    .layer h3{
+        font-size: 5px;
+    }
+    .layer p{
+        width: 90%;
+        font-weight: 500;
+        color: black;
+        font-size: 5px;
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        opacity: 0;
+    }
+    .sub-header{
+        height: 13vh;
+    }
+    .about h1{
+        font-size: 20px;
+    }
+    .about-column h3{
+        margin-left: 20%;
+        font-size: 10px;
+    }
+    .about-column img{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .about-column p{
+        width: 65%;
+        margin-left: 10%;
+        text-align: justify;
+        font-size: 9.1px;
+    }
+    .contact_us h1{
+        font-size: 15px;
+    }
+    .contact_us-column{
+        flex-basis: 45%;
+    }
+    .contact_us-column h3{
+        font-size: 8px;
+    }
+    .contact_us-column p{
+        font-size: 7px;
+    }
+    .footer{
+        font-size: 6px;
+    }
+} 
